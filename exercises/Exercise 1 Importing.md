@@ -24,5 +24,3 @@ Get comfortable with different ways of importing objects from a package.
    
    1. import only the `make_example_potion` function and call it
    2. does it work? if yes, why? If no, why not?
-   
-   

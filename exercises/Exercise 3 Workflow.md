@@ -25,6 +25,6 @@ Make a new potion called `python_expert` according to these instructions:
 4. Have Snape inspect the potion (use target_potion='python_expert').
 ```
 
-Use the `if __name__ =="__main__"` block to call the `inspection_by_snape` function when you execute `brew_potions.py`. Make sure you change the **target** potion to `"python_expert"`.
+Use the `if __name__ =="__main__"` block in `brew_potions.py` to create the `python_expert` potion and call Snape to inspect the potion by calling `inspection_by_snape` . Make sure you actaully call the function you are editing and change the **target** potion for Snape to `"python_expert"`.
 
 Note that if you copy from the `example_potion()` function, it is missing a crucial step. You can look at the `Potion()` class in `brewing/potion_class.by` for inspiration.
