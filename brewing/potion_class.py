@@ -1,6 +1,6 @@
 class Potion:
 
-    def __init__(self, name):
+    def __init__(self, student_name):
         """This is a class for brewing potions."""
         self.colour = 'there-is-no-potion-so-the-potion-has-no-color'
         self.cooked = False
@@ -8,7 +8,7 @@ class Potion:
         self.heat_source = None
         self.ingredients = []
         self.simmer_duration = -1
-        self.name = name
+        self.student_name = student_name
 
     def setup(self, container=None, heat_source=None):
         """Add a container and/or heat_source to the potion.
