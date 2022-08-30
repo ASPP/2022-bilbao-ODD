@@ -1,0 +1,9 @@
+brewing/__pycache__/
+bin/
+include/
+share/
+pyvenv.cfg
+lib/
+.DS_Store
+.gitignore.swp
+

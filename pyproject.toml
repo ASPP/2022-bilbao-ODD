@@ -1,0 +1,27 @@
+[project]
+name = "brewing"
+version = "0.1.0"
+description = "a python package for brewing potions"
+authors = [{ name = "H. Granger", email = "h.granger@hogwarts.ac.uk" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = ["numpy >= 1.14.0", "matplotlib >= 3.0.0", "pytest >= 3.0.0"]
+#https://pypi.org/calssifiers
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+packages = ["brewing"]
+
+# [tool.setuptools.packages.find]
+# exclude = ["materials"]
+[project.urls]
+"Homepage" = "https://github.com/ASPP/2022-bilbao-ODD.git"
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
