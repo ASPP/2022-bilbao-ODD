@@ -30,3 +30,6 @@ if __name__ == "__main__":
     my_potion = make_python_expert_potion(student_name=my_name)
     # Let Snape inspect the potion
     inspection.inspection_by_Snape(potion=my_potion, target_potion='example_potion')
+    python_expert = potion_class.Potion(student_name=my_name)
+    python_expert.setup(container=containers.pewter_cauldron, heat_source=cooking.eternal_flame)
+    inspection.inspection_by_Snape(potion=python_expert, target_potion='python_expert')
